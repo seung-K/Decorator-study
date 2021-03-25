@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",                                
+    "module": "commonjs",
+    "strict": true,                                 
+    "esModuleInterop": true,                        
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@services/*": ["src/services/*"],
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.vue" 
+  ],
+  "exclude": ["node_modules"],
+  "files": ["src/shims-vue.d.ts"]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "decorator-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.168",
+    "@vue/cli-service": "^4.5.12",
+    "cache-loader": "^4.1.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-loader": "^8.0.18",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-loader": "^15.9.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "vuex": "^3.6.2",
+    "vuex-module-decorators": "^1.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-plugin-typescript": "^4.5.12",
+    "@vue/cli-plugin-vuex": "^4.5.12",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "vue-type-check": "^1.1.0"
+  }
+}
